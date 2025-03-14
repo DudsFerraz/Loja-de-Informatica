@@ -1,0 +1,37 @@
+.dropdown-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 15px;
+}
+
+.dropdown-container label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.dropdown-container select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Efeito ao passar o mouse */
+.dropdown-container select:hover {
+    border-color: #007bff;
+}
+
+/* Efeito ao selecionar */
+.dropdown-container select:focus {
+    border-color: #007bff;
+    outline: none;
+}

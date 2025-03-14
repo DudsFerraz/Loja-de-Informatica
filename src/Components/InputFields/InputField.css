@@ -1,0 +1,45 @@
+.input-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.input-field label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-field input,
+.input-field select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.input-field input:focus,
+.input-field select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.radio-container {
+    display: flex;
+    gap: 20px;  /* Define o espaço entre os botões de rádio */
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.radio-group {
+    display: flex;
+    gap: 20px;  /* Espaçamento entre os botões */
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.radio-group input {
+    margin-right: 5px;
+}
